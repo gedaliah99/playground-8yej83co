@@ -30,8 +30,8 @@ You may notice that instead of returning ```True``` or ```False```, we are now p
 def isPrime(n):
     for i in range(2, n):
         if (n%i) == 0:
-            pass
-    print(f"{n} is a Prime")
+            print(f"{n} is not a Prime.")
+    print(f"{n} is a Prime.")
 
 n = 20 # Change this value to expirement.
 
