@@ -19,30 +19,8 @@ print(isPrime(60)) # False
 ```
 Try it for yourself by changing the code and test-lines above.
 
-
-### PROGRAM: Using 'isPrime()'.
-Let's use this function to check which numbers from ```0``` to ```n``` are prime.
-
-You may notice that instead of returning ```True``` or ```False```, we are now printing "is a Prime" or ```pass```.
-```pass``` means that we skip that part. This is useful for if we do not want to output or return anything.
-
-```python runnable
-def isPrime(n):
-    for i in range(2, n):
-        if (n%i) == 0:
-            print(f"{n} is not a Prime.")
-    print(f"{n} is a Prime.")
-
-n = 20 # Change this value to expirement.
-
-for i in range(0, n):
-    isPrime(i)
-```
-Try it for yourself.
-
-
 #### Conclusion:
-We have defined a function ```isPrime()``` and we have used it to find all the numbers from ```0``` to ```n``` that are prime.
+We have defined a function ```isPrime()``` using 5 lines of code.
 
 Happy Coding,
 Code-Parser
