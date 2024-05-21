@@ -13,8 +13,8 @@ def isPrime(n):
     return True
 
 # Let's test it out:
-isPrime(2) # = False
-isPrime(7) # = True
+print(isPrime(2)) # = False
+print(isPrime(7)) # = True
 ```
 
 Try it for yourself by changing the code and test-lines above.
