@@ -13,9 +13,9 @@ def isPrime(n):
     return True
 
 # Let's test it out:
-print(isPrime(2)) # = True
-print(isPrime(7)) # = True
-print(isPrime(60)) # = False
+print(isPrime(2)) # True
+print(isPrime(7)) # True
+print(isPrime(60)) # False
 ```
 
 Try it for yourself by changing the code and test-lines above.
